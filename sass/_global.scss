@@ -1,0 +1,35 @@
+  *,
+  *::after,
+  *::before {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  body {
+    width: 100vw;
+    overflow: auto;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  img {
+    width: 100%;
+  }
