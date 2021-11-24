@@ -50,13 +50,8 @@
         }
     </style>
     <script>
-        function myFunction() {
-            let x= document.getElementById("navBar");
-            if (x.Id==="topnav") {
-                x.Id += "responsive";
-            } else {
-                x.Id = "topnav";
-            }
+        document.getElementsByClassName("hamburger").onclick= function() {
+            document.getElementById("navBar")
         }
     </script>
 </body>
