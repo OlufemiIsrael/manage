@@ -84,7 +84,13 @@
       }
     </style>
     <script>
-      let x = Document.getElementById("topnav");
+      let x = Document.getElementByTagName("nav");
+      let navBar = x
+
+
+      Document.getElementsByClassName("hamburger").onclick= function() {
+        Document.getElementById("demo").innerHTML= navBar()
+      }
     </script>
   </body>
 </html>
