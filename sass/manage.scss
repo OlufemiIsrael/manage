@@ -1,3 +1,13 @@
 @import "global";
 @import "header";
 
+.wrapbox{
+    background-color: hsl(12, 88%, 59%);
+    h2{
+        padding: 8px 18px 6px 16px;
+    }
+    button{
+        background-color: white;
+        color: hsl(12, 88%, 59%);
+    }
+}

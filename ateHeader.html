@@ -18,9 +18,10 @@
       <div class="bar">
         <img src="img/icon-hamburger.svg" alt="nav-bar" class="hamburger" />
       </div>
-      <div id="demo"></div>
     </header>
-    <section></section>
+    <section>
+      <p id="demo"></p>
+    </section>
     <style>
       body {
         font-size: 21px;
@@ -84,12 +85,18 @@
       }
     </style>
     <script>
-      let x = Document.getElementByTagName("nav");
-      let navBar = x
+      const person = {
+        name : "israel",
+        age : 16,
+        about: function () {
+          return this.name+" "+this.age
+        }
+      }
+      console.log(true);
 
 
-      Document.getElementsByClassName("hamburger").onclick= function() {
-        Document.getElementById("demo").innerHTML= navBar()
+      document.getElementsByClassName("hamburger").onclick= function() {
+        document.getElementById("demo").innerHTML= about();
       }
     </script>
   </body>
