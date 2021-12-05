@@ -84,14 +84,13 @@
       }
     </style>
     <script>
-      const person = {
-        name : "israel",
-        age : 16,
+      const navbar = {
+        details : document.getElementById("topnav"),
         about: function () {
-          return this.name+" "+this.age
+          return this.details
         }
       }
-      console.log(name);
+      console.log(navbar.details);
 
 
       document.getElementsByClassName("hamburger").onclick= function() {
