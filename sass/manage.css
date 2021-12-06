@@ -44,13 +44,6 @@ footer {
           align-items: center;
 }
 
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
-}
-
 button {
   padding: 10px 18px 8px 16px;
   border-radius: 7px;
@@ -124,7 +117,7 @@ a:hover {
 
 .box p {
   font-size: 18px;
-  color: #ded4d4;
+  color: darkgray;
   padding: 12px 22px 8px 9px;
 }
 
@@ -144,11 +137,11 @@ a:hover {
 
 .wrap p {
   font-size: 18px;
-  color: #ded4d4;
+  color: darkgray;
 }
 
 .wrap .manage {
-  color: #ded4d4;
+  color: darkgray;
   padding: 9px 23% 8px 10px;
 }
 
