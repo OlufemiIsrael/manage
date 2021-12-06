@@ -1,6 +1,48 @@
 @import "global";
 @import "header";
 
+
+.box{
+    h1 {
+        font-size: 38px;
+        color: hsl(228, 39%, 23%);
+        padding-right: 28%;
+    }
+    p{
+        font-size: 18px;
+        color: hsl(0, 13%, 85%);
+        padding: 12px 22px 8px 9px;
+    }
+}
+.wrap{
+    .aboutManage {
+        margin-top: -9%;
+    }
+    h1 {
+        font-size: 31px;
+        color: hsl(228, 39%, 23%);
+        padding: 10px 35% 8px 12px;
+    }
+    h3{
+        color: hsl(228, 39%, 23%);
+    }
+    p{
+        font-size: 18px;
+        color: hsl(0, 13%, 85%);
+    }
+    .manage {
+        color: hsl(0, 13%, 85%);
+        padding: 9px 23% 8px 10px;
+    }
+    div{
+        margin-bottom: 3%;
+    }
+    span{
+        color: white;
+        background-color: hsl(12, 88%, 59%);
+        padding: 4px 6px 3px 5px;
+    }
+}
 .wrapbox{
     background-color: hsl(12, 88%, 59%);
     h2{
@@ -10,4 +52,7 @@
         background-color: white;
         color: hsl(12, 88%, 59%);
     }
+}
+.list1{
+    margin-right: 5%;
 }
