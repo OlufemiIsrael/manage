@@ -45,6 +45,7 @@
     span{
         color: white;
         background-color: hsl(12, 88%, 59%);
+        border-radius: 4px;
         padding: 4px 6px 3px 5px;
     }
 }
@@ -56,6 +57,17 @@
     button{
         background-color: white;
         color: hsl(12, 88%, 59%);
+    }
+}
+.aboutUs {
+    div{
+        border: 1px solid white;
+        background-color: hsl(0, 0%, 98%);
+        text-align: center;
+        margin-right: 3%;
+        div:last-child{
+            margin-right: 0;
+        }
     }
 }
 .list1{

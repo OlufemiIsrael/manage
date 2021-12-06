@@ -23,12 +23,12 @@ body {
 }
 
 section {
-  padding: 0 3vw;
+  padding: 0 5vw;
   margin-bottom: 5%;
 }
 
 footer {
-  padding: 0 3vw;
+  padding: 0 5vw;
   background-color: #1d1e25;
 }
 
@@ -57,6 +57,11 @@ button {
   text-align: center;
 }
 
+button:hover {
+  background-color: lightcoral;
+  color: black;
+}
+
 span {
   margin-right: 9px;
 }
@@ -65,7 +70,7 @@ header {
   margin-top: 0%;
   height: 75px;
   width: 100%;
-  padding: 0 3vw;
+  padding: 0 5vw;
   position: fixed;
   z-index: 100;
   background-color: #fafafa;
@@ -167,6 +172,7 @@ a:hover {
 .wrap span {
   color: white;
   background-color: #f25f3a;
+  border-radius: 4px;
   padding: 4px 6px 3px 5px;
 }
 
@@ -181,6 +187,17 @@ a:hover {
 .wrapbox button {
   background-color: white;
   color: #f25f3a;
+}
+
+.aboutUs div {
+  border: 1px solid white;
+  background-color: #fafafa;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.aboutUs div div:last-child {
+  margin-right: 0;
 }
 
 .list1 {
