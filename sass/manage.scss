@@ -5,13 +5,19 @@
 .box{
     h1 {
         font-size: 38px;
-        color: hsl(228, 39%, 23%);
         padding-right: 28%;
     }
     p{
         font-size: 18px;
         color: darkgray;
-        padding: 12px 22px 8px 9px;
+        padding: 12px 40% 8px 9px;
+    }
+    div{
+        margin-top: -15%;
+    }
+    img{
+        margin-top: 7%;
+        width: 50%;
     }
 }
 .wrap{
@@ -20,7 +26,6 @@
     }
     h1 {
         font-size: 31px;
-        color: hsl(228, 39%, 23%);
         padding: 10px 35% 8px 12px;
     }
     h3{
