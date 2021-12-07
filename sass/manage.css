@@ -189,6 +189,10 @@ a:hover {
   color: #f25f3a;
 }
 
+.aboutUs h1 {
+  margin-bottom: 6%;
+}
+
 .aboutUs div {
   border: 1px solid white;
   background-color: #fafafa;
@@ -196,8 +200,14 @@ a:hover {
   margin-right: 3%;
 }
 
-.aboutUs div div:last-child {
-  margin-right: 0;
+.aboutUs img {
+  width: 18%;
+  margin-top: -6%;
+}
+
+.aboutUs button {
+  margin-top: 22px;
+  margin-left: 43%;
 }
 
 .list1 {
