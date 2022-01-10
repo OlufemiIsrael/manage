@@ -141,12 +141,16 @@ a:hover {
   width: 50%;
 }
 
+.wrap {
+  background-color: #f0efef;
+}
+
 .wrap .aboutManage {
-  margin-top: -9%;
+  margin-top: -6%;
 }
 
 .wrap h1 {
-  font-size: 31px;
+  font-size: 38px;
   padding: 10px 35% 8px 12px;
 }
 
@@ -155,7 +159,7 @@ a:hover {
 }
 
 .wrap p {
-  font-size: 18px;
+  font-size: 20px;
   color: darkgray;
 }
 
