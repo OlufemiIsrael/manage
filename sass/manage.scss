@@ -50,9 +50,14 @@
     }
 }
 .wrapbox{
+    padding: 1.5vh 9vw;
+    height: 289px;
+    background-image: url(/img/section4-bg-desktop.svg);
     background-color: hsl(12, 88%, 59%);
     h2{
-        padding: 8px 18px 6px 16px;
+        font-size: 35px;
+        color: white;
+        padding: 8px 21px 6px 16px;
     }
     button{
         background-color: white;
