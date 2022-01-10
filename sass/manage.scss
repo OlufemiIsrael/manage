@@ -3,6 +3,8 @@
 
 
 .box{
+    background-image: url(/img/section4-bg-coral-desktop.svg);
+    background-repeat: no-repeat;
     h1 {
         font-size: 38px;
         padding-right: 28%;
@@ -21,9 +23,11 @@
     }
 }
 .wrap{
+    height: 450px;
     background-color: rgb(240, 239, 239);
     .aboutManage {
-        margin-top: -6%;
+        line-height: 3%;
+        margin-top: -10%;
     }
     h1 {
         font-size: 38px;
