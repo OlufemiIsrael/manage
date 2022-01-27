@@ -42,6 +42,9 @@ button:hover {
   background-color: lightcoral;
   color: black;
 }
+a:hover{
+  border-bottom: 1px solid hsl(233, 12%, 13%);
+}
 span {
   margin-right: 9px;
 }
